@@ -87,7 +87,8 @@ defaultCal:
 }
 
 func encodeBase32(bits []byte) []byte {
-
+	var ret []byte
+	return ret
 }
 
 func (g *geoHash) EncodeBitsWithPerturbationDistribution(numbits int, ceilLat, floorLat, ceilLon, floorLon, targetLat, targetLon float64) []byte
